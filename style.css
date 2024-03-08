@@ -1,0 +1,156 @@
+
+ :root {
+    --mainColor: #B22222;
+    --hoverColor: #8B0000;
+    --backgroundColor: #f1f8fc;
+    --darkOne: #312f3a;
+    --darkTwo: #000000;
+    --lightOne: #080808;
+    --loghtTwo: #aaa;
+}
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+ 
+a {
+    color: var(--lightTwo);
+    margin-left: 4.5rem;
+    display: inline-block;
+    transition: 0.3s;
+    text-decoration: none;
+}
+ 
+.big-wrapper {
+    padding: 1.7rem 0 2rem;
+    width: 100%;
+    min-width: 100vh;
+    overflow: hidden;
+    background-color:#1a5f05;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+ 
+.conteiner {
+    
+    position: relative;
+    max-width: 81rem;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 3 rem;
+    z-index: 10;
+ 
+}
+ 
+header .conteiner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ 
+.logo {
+    
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+ 
+}
+.logo img {
+    width: 100px;
+    margin-right: -0.6rem;
+    margin-top: -0.6rem;
+}
+.logo h3 {
+    color: var(--darkTwo);
+    font-size: 1.55rem;
+    line-height: 1.2;
+    font-weight: 700;
+}
+.links ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+ 
+}
+.links a {
+    color:white;
+    margin-left: 4.5rem;
+    display: inline-block;
+    transition: 0.3s;
+}
+.links a:hover {
+    color: var(--darkOne);
+    transform: scale(1.05);
+}
+.btn {
+    display: inline-block;
+    padding: 0.9rem 1.9rem;
+    color: #fff !important;
+    background-color: var(--mainColor);
+    border-radius: 16px;
+    text-transform: capitalize;
+    transition: 0.3s;
+}
+.btn:hover {
+    background-color: var(--hoverColor);
+    transform: scale(1) !important;
+}
+.mostruario .conteiner2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+ 
+}
+.big-title {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 1.4rem;
+    color: var(--darkOne);
+    text-transform: capitalize;
+    line-height: 1.4;
+}
+.conteiner2 {
+    left: 100px;
+    margin-top: 3%;
+    margin-left: 25%;
+    margin-right: 15%;
+    position: relative;
+    max-width: 81rem;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 3 rem;
+    z-index: 10;
+}
+.conteiner2 img {
+ 
+    width: 60%;
+    align-items: center;
+    border-style: solid;
+    padding: 15px;
+    border-radius: 20px;
+    color:white;
+    align-items: center;
+}
+ 
+img:hover {
+    color: black;
+    transition: 1s;
+}
+.conteiner2 p {
+    margin-right: 220px;
+    margin-left: 10px;
+}
+header{
+    padding-right: 5%;
+}
+
+#coca{
+    width: 30%;
+
+
+}
+#pepsi{
+    width:30%;
+
+}
